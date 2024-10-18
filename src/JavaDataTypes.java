@@ -3,11 +3,11 @@ public class JavaDataTypes {
         String name = "Jeevan";
         String S1 = "Mr.";
         String S2 = " Jain";
-        String lastname = name.concat(S2);
+//        String lastname = name.concat(S2);
 //        String fullname = S1.concat(lastname);
-        String fullname = S1+name+S2;
+        String fullName = S1+name+S2;
         System.out.println("Name: " +name);
-        System.out.println("Fullname: " +fullname);
+        System.out.println("Fullname: " +fullName);
 
 
 //        String name ="Jeevan";
@@ -20,7 +20,7 @@ public class JavaDataTypes {
         System.out.println("no. of skills: " +skills.length);
 
         System.out.println("Weight: "+Math.round(weight));
-        long ageInSeconds = age*(365L*24*60*60*1);
+        long ageInSeconds = age*(365L*24*60*60);
         System.out.println("Age in Seconds:" +ageInSeconds);
 
     }
